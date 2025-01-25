@@ -1,5 +1,7 @@
 h1 {
   margin: 0;
+    color: rgb(255, 255, 255);
+
 }
 
 p {
@@ -20,8 +22,8 @@ header {
   margin-bottom: 20px;
   background-color:  rgb(244, 79, 79);
   text-align: center;
-  color: rgb(255, 255, 255);
 }
+
 
 main {
 padding: 10px;
@@ -78,8 +80,7 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   #parent {
-  display: block;
-  font-size: ;
+  flex-direction: column
  }
  #parent h2 {
   font-size: 30px;
