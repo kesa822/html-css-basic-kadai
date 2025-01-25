@@ -69,7 +69,7 @@ footer {
 a {
   color: rgb(255, 255, 255);
 }
-a :visited {
+a:visited {
   color: rgb(193, 234, 251);
 }
 a:hover {
@@ -79,4 +79,12 @@ a:hover {
 @media screen and (max-width: 768px) {
   #parent {
   display: block;
+  font-size: ;
+ }
+ #parent h2 {
+  font-size: 30px;
+ }
+ #parent p {
+  font-size: 25px;
+ }
 }
